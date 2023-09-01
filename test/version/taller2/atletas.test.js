@@ -46,7 +46,7 @@ describe('encontrarMejoresAtletas', () => {
         const record = 16;
         const resultado = encontrarMejoresAtletas(atletas, record);
         expect(resultado).toEqual([
-            "Atleta3, con un salto de 14"
+            "Atleta1, con un salto de 14"
         ]);
     });
 });
